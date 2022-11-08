@@ -27,4 +27,4 @@ def gauss_slau():
     
 ans = gauss_slau()
 
-print('Rsults: ' + ans)
+print('Results: ' + ans)
