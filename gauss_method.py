@@ -23,6 +23,8 @@ def gauss_slau():
         for c in range(len(matrix)-1, i, -1):
             biases[i] = biases[i] - matrix[i][c] * biases[c] / matrix[i][i]
             
-    print(biases)
+    return biases
     
-gauss_slau()
+ans = gauss_slau()
+
+print('Rsults: ' + ans)
